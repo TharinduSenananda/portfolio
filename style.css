@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:blanchedalmond;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+    margin-right: 20px; /* Space between image and text */
+    border: 2px solid #333; /* Optional border */
+}
+
+#skills {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-info {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.project {
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.project-image {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-radius: 5px;
+}
+
+.achievement-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievement-list li {
+    margin: 10px 0;
+    background: #e6ffe6; /* Light green background for achievements */
+    padding: 10px;
+    border-radius: 5px;
+}
